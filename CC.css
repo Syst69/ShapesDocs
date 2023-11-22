@@ -572,40 +572,15 @@ iframe {
   text-align: center;
 }
 
-#dashjs {
-  width: 800px; /* Replace '400px' with the desired image width */
-  height: 400px; /* Replace '200px' with the desired image height */
-  padding: 0;
-  margin-left: 50px; /* Move the image 50px to the left */
-}
-
-#shapesec {
-  text-align: center;
-}
-
-#anaylits {
-  width: 800px; /* Replace '400px' with the desired image width */
-  height: 400px; /* Replace '200px' with the desired image height */
-  padding: 0;
-  margin-left: 50px; /* Move the image 50px to the left */
-
-}
-
-#divforany {
-  border: gold;
-}
-
-#pf {
-  width: 650px; /* Replace '400px' with the desired image width */
-  height: 500px; /* Replace '200px' with the desired image height */
-  padding: 0;
-  margin-left: 50px; /* Move the image 50px to the left */
-}
-
-#ps {
-  height: auto;
-  padding: 0;
-  margin-left: 50px;
+@media (max-width: 768px) {
+  #dashjs,
+  #anaylits,
+  img#pf {
+    width: 100%; /* Set width to 100% for mobile devices */
+    height: auto; /* Let the height adjust automatically */
+    margin-left: 50px;
+    border: aqua;
+  }
 }
 
 .suscommands {
